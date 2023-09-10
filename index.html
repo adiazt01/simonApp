@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="simon-game">
+      <h1>Simon Game</h1>
+      <div class="controls">
+        <button id="start-button">Start</button>
+        <label for="strict-mode">Strict Mode</label>
+        <input type="checkbox" id="strict-mode" />
+      </div>
+      <div class="status">
+        <p>Step: <span id="step">0</span></p>
+      </div>
+      <div class="simon-board">
+        <div class="simon-button green" data-color="1"></div>
+        <div class="simon-button red" data-color="2"></div>
+        <div class="simon-button yellow" data-color="3"></div>
+        <div class="simon-button blue" data-color="4"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
